@@ -17,7 +17,7 @@ def collatz(x):
 try:
     start = int(Decimal(sys.argv[1]))
 except:
-    print "Usage: collatz starting-number (default is 10)"
+    print "How to run: collatz starting-number (default is 10)"
     start = 10
 
 seq = collatz(start)
